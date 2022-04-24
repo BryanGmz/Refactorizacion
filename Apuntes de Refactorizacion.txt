@@ -1,0 +1,28 @@
+Viendo la estructura del proyecto, se hace dificil una restructuracion mas a fondo, por ello
+describire como pienso que seria la estrucura que utilizaria.
+
+Tendria los objetos:
+
+Jugador
+Pokemon
+Alimento
+Medicina
+Accion
+
+En donde tambien tendria acciones como que heredarian de Accion y serian clases abstractas o interfaces, en donde las implementaria un pokemon:
+
+Alimentar
+Curar
+Pasear
+Entre, otras acciones que posee el Pokemon
+
+Tendira una clase hilo como lo tiene el proyecto, en donde el pokemon heredaria de el.
+
+Para las diferentes acciones de Jugador y tendria un "Manejador", que se encargaria de la logica de este.
+
+Tendria una clase "Manejador Mascotas", en donde se encargaria de realizar las diferentes acciones de cada pokemon,
+
+Si, bien solo se necesita un Jugador, podria implemetar el patron de disenio Singlenton.
+
+Tambien creo que aplicaria el patron de disenio Builder para la logica del Pokemon.
+
